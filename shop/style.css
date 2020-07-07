@@ -1,0 +1,40 @@
+
+/*********************************************/
+/*                  SECTION                  */
+/*********************************************/
+
+section h1
+{
+	text-align: center;
+	font-size :30px;
+	padding: 20px;
+}
+section article
+{
+	text-align: center;
+	margin: 300px 0px;
+	font-size: 20px;
+}
+
+  /************************/
+ /*      RESPONSIVE      */
+/************************/
+
+@media screen and (max-width: 950px) 
+{ 
+}
+
+
+
+
+
+
+
+  /************************/
+ /*     RESPONSIVE_G     */
+/************************/
+@media screen and (min-width: 1500px)
+{
+}
+
+

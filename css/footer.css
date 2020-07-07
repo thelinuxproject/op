@@ -1,0 +1,49 @@
+.footer
+{
+	border-top: 3px solid rgb(241,51,20);
+	background-color: rgb(9,52,69);
+	padding-bottom: 20px;
+	text-align: center;
+	color: white;
+}
+
+footer nav
+{
+	padding: 20px;
+}
+
+footer nav ul a
+{
+	font-size: 18px;
+	color: white;
+}
+
+footer nav ul a:hover
+{
+	color: rgb(241,51,20);
+}
+
+
+
+
+
+
+  /************************/
+ /*      RESPONSIVE      */
+/************************/
+
+@media screen and (max-width: 950px) 
+{
+/*footer*/
+	.footer
+	{
+		font-size: 10px;
+		padding-bottom:20px;
+	}
+	footer nav ul a
+	{
+		font-size: 12px;
+	}
+
+}
+

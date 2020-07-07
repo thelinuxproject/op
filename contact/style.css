@@ -1,0 +1,226 @@
+/*********************************************/
+/*                   FROM                    */
+/*********************************************/
+
+.form
+{
+	background-color: rgb(220,220,220);
+	padding-bottom: 20px;
+}
+
+fieldset
+{
+	background-color: #FFF;
+}
+
+
+h1
+{
+	text-align: center;
+	font-size :30px;
+	padding: 20px;
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+	font-size :20px;
+	padding: 10px;
+	background-color: rgb(9,52,69);
+	border-top :2px solid rgb(241,51,20);
+	border-bottom :2px solid rgb(241,51,20);
+
+}
+
+.obligatoire /*corespond a (*) */
+{
+	color: red;
+}
+
+.form .infos-champs
+{
+	padding: 2em;
+}
+
+div form fieldset
+{
+	margin: 1em 14em;
+	padding: 10px;
+	border: 2px solid rgb(9,52,69);
+	border-radius: 20px;
+}
+
+
+div form fieldset p
+{
+	text-align: center;
+	padding: 15px;
+	color: rgb(9,52,69);
+	font-size:15px;
+}
+
+div form fieldset p input
+{
+	text-align: center;
+	padding: 1em 3em;
+	font-size: 15px;
+	border:2px solid rgb(241,51,20);
+	border-radius: 20px;
+}
+
+div form fieldset p select
+{
+	border: 2px solid rgb(241,51,20);
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+div form fieldset p textarea
+{
+	border: 2px solid rgb(241,51,20);
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+}
+
+/*bouton*/
+
+ .boutton
+{
+	border: 1px solid rgb(9,52,69);
+	padding: 10px 40px 10px 40px;
+	border-radius:8px;
+	font-size: 15px;
+	color: rgb(9,52,69);
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.boutton:hover
+{
+	color: white;
+	background-color: rgb(9,52,69);
+
+}
+
+
+
+/*********************************************/
+/*                 section                   */
+/*********************************************/
+
+
+
+section
+{
+	background-color: rgb(220,220,220);
+}
+
+h2
+{
+	color: white;
+	text-align: center;
+	font-size :20px;
+	padding: 10px;
+	background-color: rgb(9,52,69);
+	border-top :2px solid rgb(241,51,20);
+	border-bottom :2px solid rgb(241,51,20);
+
+}
+
+section article 
+{
+	padding: 20px;
+	text-align: center;
+}
+
+section article p
+{
+	padding: 20px
+}
+
+
+
+
+
+  /************************/
+ /*      RESPONSIVE      */
+/************************/
+
+@media screen and (max-width: 955px) 
+{ 
+/*form*/
+	div form p input
+	{
+		padding: 10px 25px;
+	}
+	div form fieldset
+	{
+		margin: 1em 14em;
+		padding: 10px;
+		border:3px solid rgb(9,52,69);
+		border-radius: 20px;
+	}
+
+}
+
+
+  /************************/
+ /*      RESPONSIVE_P    */
+/************************/
+
+@media screen and (max-width: 650px) 
+{
+/*form*/
+	div form p input
+	{
+		padding: 10px 25px;
+	}
+	div form fieldset
+	{
+		margin: 1em;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		padding: 10px;
+		border:3px solid rgb(9,52,69);
+		border-radius: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+  /************************/
+ /*     RESPONSIVE_G     */
+/************************/
+@media screen and (min-width: 1500px)
+{
+	section h2
+	{
+		font-size: 27px;
+	}
+	section article h2
+	{
+		font-size:24px;
+	}
+	section h3,
+	section p,
+	section a,
+	section ul li,
+	section strong
+	{
+		font-size:20px;
+	}
+
+}

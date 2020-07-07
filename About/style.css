@@ -1,0 +1,189 @@
+/*********************************************/
+/*                  SECTION                  */
+/*********************************************/
+
+
+section article h2
+{
+	text-align: center;
+	background-color: rgb(9,52,69);
+	border-top: 2px solid rgb(241,51,20);
+	border-bottom: 2px solid rgb(241,51,20);
+	color: white;
+	padding: 3px;
+}
+section article p
+{
+	margin: 20px;
+	padding: 20px;
+}
+
+
+
+/***      QUI?      ***/
+
+.qui 
+{
+	border-bottom: none;
+}
+section article nav li a
+{
+	display:block;
+	text-decoration:none;
+	border-bottom: 2px solid rgb(241,51,20);
+	color: white;
+	padding:10px 0px;
+}
+
+section article nav ul
+{
+	list-style-type: none;
+}
+
+section article nav ul li
+{
+	float: left;
+	width: 25px;
+	text-align: center;
+}
+
+section article nav ul::after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.deroulant > a::after
+{
+	content: "▼";
+	font-size: 12px
+}
+
+section article nav ul li
+{
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: rgb(9,52,69);
+}
+
+/*sous section*/
+
+.sous
+{
+	display: none;
+	position: absolute;
+	width: 25%;
+	z-index: 1000;
+}
+
+.sous li 
+{
+	float: none;
+	width: 100%;
+	text-align: left;
+	background-color: white;
+	border-top: 2px solid rgb(241,51,20);
+	
+}
+
+.sous li p
+{
+	margin: 5px;
+	background-color: white;
+}
+
+section article nav > ul li:hover .sous
+{
+	display: block;
+}
+
+
+/*aside*/
+
+article aside p
+{
+	padding: 2em;
+}
+
+/*  video-ytb  */
+.video-ytb
+{
+	border:2px solid rgb(241,51,20);
+	border-radius: 20px;
+	width: 580px;
+	margin: 50px;
+	background-color: rgb(9,52,69);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.video-ytb iframe
+{
+	margin: 10px;
+	border: 2px solid rgb(9,52,69);
+	border-radius: 12px;
+}
+.video-ytb p
+{
+	padding: 0px;
+	color: white;
+}
+
+
+
+
+
+  /************************/
+ /*      RESPONSIVE      */
+/************************/
+
+@media screen and (max-width: 950px) 
+{
+/*section*/
+
+	.sous li 
+	{
+		font-size :10px;
+	}
+	.video-ytb
+	{
+		width: 330px;
+	}
+	.video-ytb iframe
+	{
+		width: 300px;
+	}
+}
+
+
+
+
+
+
+
+  /************************/
+ /*     RESPONSIVE_G     */
+/************************/
+@media screen and (min-width: 1500px)
+{
+	section h2
+	{
+		font-size: 27px;
+	}
+	section article h2
+	{
+		font-size:24px;
+	}
+	section h3,
+	section p,
+	section a,
+	section ul li,
+	section strong
+	{
+		font-size:20px;
+	}
+}
+
+
